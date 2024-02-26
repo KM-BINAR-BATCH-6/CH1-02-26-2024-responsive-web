@@ -16,3 +16,27 @@
     color: red;
   } */
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+
+  .card img {
+    width: 100px;
+  }
+}
+
+.left-section {
+  float: left;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.right-section {
+  float: right;
+}
