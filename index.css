@@ -17,6 +17,10 @@
   } */
 }
 
+body {
+  font-family: "Merriweather", serif;
+}
+
 @media (max-width: 600px) {
   .card {
     width: 100%;
@@ -30,6 +34,7 @@
 
   h1 {
     text-align: center;
+    font-weight: 300 !important;
   }
 }
 
@@ -43,4 +48,8 @@
 
 .right-section {
   float: right;
+}
+
+h1 {
+  font-weight: 900;
 }
