@@ -16,3 +16,31 @@ h1 {
     color: red;
   }
 }
+
+/* [Rafli] - Navbar */
+.navbar {
+  background-color: yellow;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.nav-list li {
+  float: right;
+}
+
+.nav-list li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.nav-list li a:hover {
+  background-color: blue;
+}
