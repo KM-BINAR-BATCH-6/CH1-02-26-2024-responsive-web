@@ -14,42 +14,33 @@
 @media (orientation: landscape) and (max-width: 800px) {
   /* h1 {
     color: red;
-  } */
-}
-
-body {
-  font-family: "Merriweather", serif;
-}
-
-@media (max-width: 600px) {
-  .card {
-    width: 100%;
-    display: block;
-    text-align: justify;
-  }
-
-  .card img {
-    width: 100px;
-  }
-
-  h1 {
-    text-align: center;
-    font-weight: 300 !important;
   }
 }
 
-.left-section {
-  float: left;
+/* [Rafli] - Navbar */
+.navbar {
+  background-color: yellow;
 }
 
-.card img {
-  object-fit: cover;
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
 }
 
-.right-section {
+.nav-list li {
   float: right;
 }
 
-h1 {
-  font-weight: 900;
+.nav-list li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.nav-list li a:hover {
+  background-color: blue;
 }
